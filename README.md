@@ -1,11 +1,6 @@
 # Harry Potter Octocat Example
 
-This project demonstrates how to use the `fast-agent` framework to match the top 5 Harry Potter characters with Octocats based on their characteristics. It leverages the `FastAgent` class and connects to the `octocat-hp-mcp-server-local` server.
-
-## Features
-- Uses the `fast-agent` framework for agent orchestration
-- Matches Harry Potter characters with Octocats
-- Asynchronous Python implementation
+This project demonstrates how to use the `fast-agent` framework to connect to the Octocat Harry Potter MCP server.
 
 ## Getting Started
 
