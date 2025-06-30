@@ -1,0 +1,59 @@
+# Harry Potter Octocat Example
+
+This project demonstrates how to use the `fast-agent` framework to match the top 5 Harry Potter characters with Octocats based on their characteristics. It leverages the `FastAgent` class and connects to the `octocat-hp-mcp-server-local` server.
+
+## Features
+- Uses the `fast-agent` framework for agent orchestration
+- Matches Harry Potter characters with Octocats
+- Asynchronous Python implementation
+
+## Getting Started
+
+### Prerequisites
+- Python 3.10+
+- [`uv`](https://github.com/astral-sh/uv) (recommended for fast Python package management)
+
+
+### Installation
+1. Clone this repository or copy the files to your local machine.
+2. Install the `fast-agent-mcp` package using `uv`:
+
+```bash
+uv pip install fast-agent-mcp
+```
+
+If you don't have `uv` installed, you can install it with:
+
+```bash
+uv pip install fast-agent-mcp 
+```
+
+### Configuration
+Before running the example, you need to adjust the Octocat HP MCP server settings in the `fastagent.config.yaml` file. Make sure the server address and credentials match your local or remote MCP server setup. Furthermore, you would need to set API keys for the model you are using in the `fastagent.secrets.yaml` file.
+
+### Running the Example
+
+Run the agent using `uv` (recommended):
+
+```bash
+uv run harry-potter-octocat.py --model  openai.gpt-4o
+```
+
+Or start an interactive session with fast-agent:
+
+```bash
+uv run fast-agent go --url http://localhost:9000/sse --model sonnet35
+```
+
+Or with Python directly:
+
+```bash
+python harry-potter-octocat.py
+```
+
+## Project Structure
+- `harry-potter-octocat.py`: Main script to run the agent
+- `fastagent.config.yaml`, `fastagent.secrets.yaml`, `fastagent.jsonl`: Configuration and secrets for the agent
+
+## License
+MIT (or specify your license here)
