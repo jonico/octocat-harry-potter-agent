@@ -1,4 +1,4 @@
-# Harry Potter Octocat Example
+# Harry Potter / Octocats Example Agent
 
 This project demonstrates how to use the `fast-agent` framework to connect to the Octocat Harry Potter MCP server.
 
@@ -14,17 +14,17 @@ This project demonstrates how to use the `fast-agent` framework to connect to th
 2. Install the `fast-agent-mcp` package using `uv`:
 
 ```bash
+# create and activate a python environment
+uv venv
+source .venv/bin/activate
+# install the fast-agent-mcp package
 uv pip install fast-agent-mcp
 ```
 
-If you don't have `uv` installed, you can install it with:
-
-```bash
-uv pip install fast-agent-mcp 
-```
 
 ### Configuration
-Before running the example, you need to adjust the Octocat HP MCP server settings in the `fastagent.config.yaml` file. Make sure the server address and credentials match your local or remote MCP server setup. Furthermore, you would need to set API keys for the model you are using in the `fastagent.secrets.yaml` file.
+Before running the example, you need to adjust the Octocat HP MCP server settings in the `fastagent.config.yaml` file. Make sure the server address and credentials match your local or remote MCP server setup. Furthermore, you would need to set API keys for the model you are using in the `fastagent.secrets.yaml` file. You can use the example file `fastagent.secrets.yaml.example` as a template.
+
 
 ### Running the Example
 
@@ -34,16 +34,10 @@ Run the agent using `uv` (recommended):
 uv run harry-potter-octocat.py --model  openai.gpt-4o
 ```
 
-Or start an interactive session with fast-agent:
+Or start an interactive session with fast-agent and point to any MCP server:
 
 ```bash
 uv run fast-agent go --url http://localhost:9000/sse --model sonnet35
-```
-
-Or with Python directly:
-
-```bash
-python harry-potter-octocat.py
 ```
 
 ## Project Structure
