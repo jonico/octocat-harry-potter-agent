@@ -45,33 +45,33 @@ uv run fast-agent go --url http://localhost:9000/sse --model sonnet35
 
 ### Example output
 
-# Harry Potter Characters Meet Octocats 🧙‍♂️🐱
+### Harry Potter Characters Meet Octocats 🧙‍♂️🐱
 
 ## 1. Harry Potter - Heroic Octocat
 | Harry Potter | Sentrytocat |
 |--------------|--------------|
-| ![Harry Potter](https://ik.imagekit.io/hpapi/harry.jpg) | ![Heroic Octocat](https://octodex.github.com/images/Sentrytocat_octodex.jpg) |
+| <img src="https://ik.imagekit.io/hpapi/harry.jpg" alt="Harry Potter" width="100" height="100"> | <img src="https://octodex.github.com/images/Sentrytocat_octodx.jpg" alt="Heroic Octocat" width="100" height="100"> |
 - **Traits Matched**: Brave, protective, stands against adversity
 - **Octocat Reasoning**: The Sentrytocat embodies Harry's guardianship and courage
 
 ## 2. Hermione Granger - Professortocat
 | Hermione Granger | Professortocat |
 |------------------|----------------|
-| ![Hermione Granger](https://ik.imagekit.io/hpapi/hermione.jpeg) | ![Professortocat](https://octodex.github.com/images/Professortocat_v2.png) |
+| <img src="https://ik.imagekit.io/hpapi/hermione.jpeg" alt="Hermione Granger" width="100" height="100"> | <img src="https://octodex.github.com/images/Professortocat_v2.png" alt="Professortocat" width="100" height="100"> |
 - **Traits Matched**: Intelligent, studious, always prepared
 - **Octocat Reasoning**: Reflects Hermione's academic brilliance and love of learning
 
 ## 3. Ron Weasley - Welcometocat
 | Ron Weasley | Welcometocat |
 |-------------|--------------|
-| ![Ron Weasley](https://ik.imagekit.io/hpapi/ron.jpg) | ![Welcometocat](https://octodex.github.com/images/welcometocat.png) |
+| <img src="https://ik.imagekit.io/hpapi/ron.jpg" alt="Ron Weasley" width="100" height="100"> | <img src="https://octodex.github.com/images/welcometocat.png" alt="Welcometocat" width="100" height="100"> |
 - **Traits Matched**: Loyal, friendly, warm-hearted
 - **Octocat Reasoning**: Represents Ron's welcoming nature and importance of friendship
 
 ## 4. Draco Malfoy - Stormtroopocat
 | Draco Malfoy | Stormtroopocat |
 |--------------|----------------|
-| ![Draco Malfoy](https://ik.imagekit.io/hpapi/draco.jpg) | ![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.png) |
+| <img src="https://ik.imagekit.io/hpapi/draco.jpg" alt="Draco Malfoy" width="100" height="100"> | <img src="https://octodex.github.com/images/stormtroopocat.png" alt="Stormtroopocat" width="100" height="100"> |
 - **Traits Matched**: Stern, uniformed, follows a strict code
 - **Octocat Reasoning**: Symbolizes Draco's rigid upbringing and conformity to Slytherin expectations
 
