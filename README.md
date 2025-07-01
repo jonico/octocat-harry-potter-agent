@@ -45,12 +45,12 @@ uv run fast-agent go --url http://localhost:9000/sse --model sonnet35
 
 ### Example output
 
-### Harry Potter Characters Meet Octocats 🧙‍♂️🐱
+# Harry Potter Characters Meet Octocats 🧙‍♂️🐱
 
 ## 1. Harry Potter - Heroic Octocat
 | Harry Potter | Sentrytocat |
 |--------------|--------------|
-| <img src="https://ik.imagekit.io/hpapi/harry.jpg" alt="Harry Potter" width="100" height="100"> | <img src="https://octodex.github.com/images/Sentrytocat_octodx.jpg" alt="Heroic Octocat" width="100" height="100"> |
+| <img src="https://ik.imagekit.io/hpapi/harry.jpg" alt="Harry Potter" width="100" height="100"> | <img src="https://octodex.github.com/images/Sentrytocat_octodex.jpg" alt="Heroic Octocat" width="100" height="100"> |
 - **Traits Matched**: Brave, protective, stands against adversity
 - **Octocat Reasoning**: The Sentrytocat embodies Harry's guardianship and courage
 
@@ -78,7 +78,7 @@ uv run fast-agent go --url http://localhost:9000/sse --model sonnet35
 ## 5. Minerva McGonagall - Justicetocat
 | Minerva McGonagall | Justicetocat |
 |--------------------|--------------|
-| ![Minerva McGonagall](https://ik.imagekit.io/hpapi/mcgonagall.jpg) | ![Justicetocat](https://octodex.github.com/images/justicetocat.jpg) |
+| <img src="https://ik.imagekit.io/hpapi/mcgonagall.jpg" alt="Minerva McGonagall" width="100" height="100"> | <img src="https://octodex.github.com/images/justicetocat.jpg" alt="Justicetocat" width="100" height="100"> |
 - **Traits Matched**: Disciplined, fair, protective of students
 - **Octocat Reasoning**: Embodies McGonagall's strong sense of justice and principled leadership
 
