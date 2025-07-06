@@ -2,6 +2,9 @@
 
 [fast-agent](https://fast-agent.ai) based example agent to connect to the [Octocat Harry Potter MCP server](https://github.com/jonico/octocat-harry-potter-mcp-server) and [advanced MCP server](https://github.com/jonico/typescript-anthropic-tool-use-example/).
 
+## Workshop slides:
+https://drive.google.com/drive/folders/1CQaKkrcuD8Vxam559EEdCByX0z2s-Oxc?usp=sharing
+
 <img width="1791" alt="image" src="https://github.com/user-attachments/assets/9279d543-27d4-4fde-a9aa-60ff3aa3e532" />
 
 
