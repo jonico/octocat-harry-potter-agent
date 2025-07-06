@@ -44,8 +44,14 @@ mcp:
         octocat-hp-mcp-server-sse:
             transport: "sse"
             url: "http://localhost:9000/sse"
-        advanced-mcp-sse:
+        octocat-hp-mcp-server-heroku:
+            transport: "sse"
+            url: "https://octocat-hp-mcp-server-d432a79c768c.herokuapp.com/sse"
+        advanced-postman-mcp-sse:
             transport: "sse"
             url: "http://localhost:3001/sse"
+        advanced-postman-mcp-heroku:
+            transport: "sse"
+            url: "https://postman-mcp-server-31647e95c708.herokuapp.com/sse"
 
 
